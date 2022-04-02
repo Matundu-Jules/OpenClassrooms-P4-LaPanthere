@@ -24,7 +24,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  /* background: #ffffff url("img/pageload-spinner.gif") no-repeat center center; */
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -813,20 +813,26 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-  background-image: url("img/agence-la-panthere.jpg");
+  background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.webp");
 }
+
+/* Images Portfolio */
+/* .images-portfolio {
+  width: 270px;
+  height: auto;
+} */
 
 @media (max-width: 1024px) {
   .bloc {
@@ -1035,6 +1041,14 @@ h4 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+  .navbar-brand img {
+    min-width: 30px;
+    height: 30px;
+  }
+  .logo-responsive-mobile {
+    width: 100px;
+    height: 100px;
   }
 }
 
