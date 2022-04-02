@@ -828,11 +828,39 @@ h4 {
   background-image: url("img/image-de-presentation.webp");
 }
 
-/* Images Portfolio */
-/* .images-portfolio {
-  width: 270px;
-  height: auto;
-} */
+/* Description Services */
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-description {
+  font-size: 16px;
+  width: 50%;
+  margin: 10px 0;
+}
+
+/* Citation */
+.citation {
+  font-size: 14px;
+  font-style: italic;
+}
+.auteur {
+  font-size: 14px;
+}
+.bloc-citation {
+  margin-top: 60px;
+}
+
+/* Portfolio */
+.portfolio-description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.portfolio-bloc {
+  padding-top: 40px;
+}
 
 @media (max-width: 1024px) {
   .bloc {
