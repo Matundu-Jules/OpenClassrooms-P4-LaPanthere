@@ -573,7 +573,7 @@ a {
   margin: auto auto auto auto;
 }
 p {
-  font-size: 11px;
+  font-size: 12px;
 }
 .tight-width-whitespace {
   max-width: 600px;
@@ -592,13 +592,16 @@ p {
   font-weight: 700;
 }
 .social {
-  max-width: 400px;
+  max-width: 250px;
   margin: auto auto auto auto;
 }
 h2 {
   font-size: 22px;
   line-height: 1.4em;
   font-weight: 700;
+}
+.h2-cta {
+  margin: 0 30px;
 }
 h3 {
   font-size: 15px;
@@ -616,6 +619,9 @@ h1 {
 }
 h4 {
   color: #333333 !important;
+}
+footer {
+  height: 120px;
 }
 .icons {
   margin-bottom: 14px;
@@ -727,6 +733,27 @@ h4 {
 }
 .mb-40 {
   margin-bottom: 40px;
+}
+.p-h1-contact {
+  font-size: 15px;
+  color: #fff !important;
+}
+.bloc-form {
+  height: 420px;
+}
+.bloc-localisation {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p-localisation {
+  font-size: 14px;
+  width: 50%;
+}
+.h3-localisation {
+  width: 50%;
 }
 @media (max-width: 1024px) {
   .bloc {
