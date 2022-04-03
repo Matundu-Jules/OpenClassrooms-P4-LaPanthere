@@ -24,10 +24,10 @@ $(function () {
           data: formData,
           cache: !1,
           success: function () {
-            if ($form.is("[success-msg]")) {
+            if ($form.is("[data-success-msg]")) {
               $form.append(
                 "<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>" +
-                  $form.attr("success-msg") +
+                  $form.attr("data-success-msg") +
                   "</strong></div></div>"
               );
             } else {
@@ -39,7 +39,7 @@ $(function () {
             if ($("#form-alert").length == 0) {
               $form.append(
                 "<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>" +
-                  $form.attr("fail-msg") +
+                  $form.attr("data-fail-msg") +
                   "</strong></div></div>"
               );
             }
