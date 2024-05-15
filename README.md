@@ -1,5 +1,4 @@
-# La Panthère - OpenClassrooms P4 - OpenClassrooms P2
-
+# La Panthère - OpenClassrooms P4
 [La Panthère](https://la-panthere.julesmatundu.com/) est un projet de refonte SEO développé dans le cadre de la formation OpenClassrooms. 
 
 Le but de ce projet est d'améliorer le référencement du site web de l'agence de web design La Panthère, basée à Lyon, afin de renforcer sa visibilité sur les moteurs de recherche et de résoudre les problèmes d'accessibilité.
